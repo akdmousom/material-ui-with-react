@@ -6,6 +6,7 @@ import Subtitle from './Components/Subtitle/Subtitle'
 import Typography from './Components/Typography/Typography'
 import SkeletonLoad from './Components/Skeleton/SkeletonLoad'
 import { Box } from '@mui/material'
+import AvaterStyle from './Components/AvaterStyle/AvaterStyle'
 
 
 function App() {
@@ -39,6 +40,7 @@ if (loading) {
       <Subtitle/>
       <Button/>
       <ButtonGroups/>
+      <AvaterStyle/>
       
       
      
