@@ -7,6 +7,7 @@ import Typography from './Components/Typography/Typography'
 import SkeletonLoad from './Components/Skeleton/SkeletonLoad'
 import { Box } from '@mui/material'
 import AvaterStyle from './Components/AvaterStyle/AvaterStyle'
+import RadioButton from './Components/RadioButton/RadioButton'
 
 
 function App() {
@@ -41,7 +42,7 @@ if (loading) {
       <Button/>
       <ButtonGroups/>
       <AvaterStyle/>
-      
+      <RadioButton/>
       
      
     </>
