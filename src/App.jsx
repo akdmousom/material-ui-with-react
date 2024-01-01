@@ -8,6 +8,7 @@ import SkeletonLoad from './Components/Skeleton/SkeletonLoad'
 import { Box } from '@mui/material'
 import AvaterStyle from './Components/AvaterStyle/AvaterStyle'
 import RadioButton from './Components/RadioButton/RadioButton'
+import Ratings from './Components/Ratings/Ratings'
 
 
 function App() {
@@ -43,6 +44,7 @@ if (loading) {
       <ButtonGroups/>
       <AvaterStyle/>
       <RadioButton/>
+      <Ratings/>
       
      
     </>
