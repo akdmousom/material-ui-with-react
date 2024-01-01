@@ -9,6 +9,7 @@ import { Box } from '@mui/material'
 import AvaterStyle from './Components/AvaterStyle/AvaterStyle'
 import RadioButton from './Components/RadioButton/RadioButton'
 import Ratings from './Components/Ratings/Ratings'
+import SlideOptionButton from './Components/SlideOptionButton/SlideOptionButton'
 
 
 function App() {
@@ -45,7 +46,7 @@ if (loading) {
       <AvaterStyle/>
       <RadioButton/>
       <Ratings/>
-      
+      <SlideOptionButton/>
      
     </>
   )
